@@ -36,7 +36,8 @@ h1{
     width: 100%;
     z-index: 999;
     font-family: 'roboto', sans-serif;
-    height: 72px;
+    height: fit-content;
+    background-color: var(--color-white);
 }
 
 /* Cabecera links */
@@ -65,7 +66,6 @@ h1{
    padding-top: 82px;
 }
 .principal .contenido{
-    border: solid blue 1px;
     display: flex;
     height: calc(100vh - 86px);
     position: relative;
@@ -83,7 +83,6 @@ h1{
     justify-content: center;
     flex-direction: column;
     border-radius: 40px;
-    border: solid red 2px;
 }
 
 .principal .contenido .tituloBox h1{
@@ -258,75 +257,6 @@ h1{
 }
 
 
-/* Formulario */
-
-.form__section {
-    height: calc(100vh - 120%);
-    position: relative;
-    padding: 3rem;
-    padding-top: 72px;
-    width: var(--size-container);
-    margin: 4rem auto; 
-    margin-top: 0;
-    border-radius: 40px;
-    background-color: var(--color-white);
-    box-shadow: 0px 8px 8px -4px rgba(16, 24, 40, 0.04), 0px 20px 24px -4px rgba(16, 24, 40, 0.10);
-    text-align: left;
-}
-
-.form__section .form__info{
-    background: var(--color-white);
-    border-radius: 40px;
-    line-height: 2rem;
-    text-align: center;
-}
-.form__section .form__info .form__section__box input {
-    resize:none;
-    background-color: var(--color-white);
-    padding:  16px;
-    border-radius: 8px;
-    border: var(--color-black);
-    border-style: solid;
-    margin-top: 1rem;
-    width: 500px;
-
-}
-.form__section .form__info .form__section__box div textarea{
-    resize:none;
-    background-color: var(--color-white);
-    padding:  16px;
-    border-radius: 8px;
-    border: var(--color-black);
-    border-style: solid;
-    margin-top: 1rem;
-    width: 500px;
-}
-.form__section .form__info .form__section__box div select{
-    resize:none;
-    background-color: var(--color-white);
-    padding:  16px;
-    border-radius: 8px;
-    border: var(--color-black);
-    border-style: solid;
-    margin-top: 1rem;
-    width: 500px;
-}
-
-.form__section .form__info .form__section__box button{
-    background: var(--color-black);
-    color: var(--color-white);
-    padding: 12px;
-    border-radius: 8px;
-    border: var(--color-black);
-    border-style: solid;
-    margin-top: 1rem;
-    display: inline-block;
-}
-
-.form__section .form__info .form__section__box button:hover{
-    color: var(--color-black);
-    background: var(--color-white);
-}
 
 /* Footer */
 .footer__section{
@@ -363,3 +293,4 @@ h1{
   padding-left: 12px;
   padding-right: 12px;
 }
+
